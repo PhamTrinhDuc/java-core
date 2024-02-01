@@ -1,0 +1,23 @@
+Cho một xâu kí tự S chỉ bao gồm chữ số và chữ cái, hãy tính tổng chữ số xuất hiện trong xâu.
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10000
+
+Output Format
+
+In ra tổng chữ số xuất hiện trong xâu
+
+Sample Input 0
+
+315abSA9172WSbn2d0
+Sample Output 0
+
+30
+Explanation 0
+
+Tổng các số xuất hiện trong xâu = 3 + 1 + 5 + 9 + 1 + 7 + 2 + 2 + 0 = 30

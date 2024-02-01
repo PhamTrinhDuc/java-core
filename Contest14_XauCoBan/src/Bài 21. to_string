@@ -1,0 +1,29 @@
+Cho số nguyên N, bạn hãy chuyển số nguyên N thành kiểu chuỗi ký tự string.
+
+Đối với C++ bạn cần xây dựng hàm theo khuôn mẫu như sau :
+
+string my_to_string(long long n){
+    //Lưu ý n có thể là số âm
+}
+
+int main(){
+	long long n; cin >> n;
+    cout << my_to_string(n) << endl;
+}
+Input Format
+
+Dòng duy nhất chứa số nguyên dương N
+Constraints
+
+-10^18<=N<=10^18
+
+Output Format
+
+In ra đáp án của bài toán
+
+Sample Input 0
+
+28282828282
+Sample Output 0
+
+28282828282

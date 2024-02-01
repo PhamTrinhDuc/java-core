@@ -1,0 +1,62 @@
+Một số tự nhiên N được coi là hợp lệ nếu nó :
+
+Có chữ số đầu tiên và cuối cùng có cùng tính chất chẵn lẻ
+
+Không có 2 chữ số nào đứng cạnh nhau có độ chênh lệch bằng 3
+
+Không được chứa số 2 và 8 đứng cạnh nhau.
+
+Bạn hãy kiểm tra các số đã cho có phải là hợp lệ hay không?
+
+Input Format
+
+Dòng 1 là T : Số lượng số cần kiểm tra
+
+T dòng tiếp theo mỗi dòng là 1 số N
+
+Constraints
+
+1<=T<=1000
+
+N là số tự nhiên có không quá 1000 chữ số
+
+Output Format
+
+Đối với mỗi test in ra YES hoặc NO tùy N có phải là số hợp lệ hay không
+
+Sample Input 0
+
+10
+4768945971937769
+6616397219777
+97929238629171
+546746487838715
+5795211668124639114
+9828511627867787611
+3527572613185
+96146749649
+26511881655
+522121849147419685
+Sample Output 0
+
+NO
+NO
+YES
+NO
+NO
+NO
+NO
+NO
+NO
+NO
+Sample Input 1
+
+3
+1234567
+8888288
+1458
+Sample Output 1
+
+YES
+NO
+NO

@@ -1,0 +1,20 @@
+Kiểm tra xem một số nguyên không âm N có chia hết cho 15 hay không? Số chia hết cho 15 nếu nó chia hết cho cả 3 và 5.
+
+Input Format
+
+Số nguyên không âm N.
+
+Constraints
+
+N có không quá 1000 chữ số.
+
+Output Format
+
+In ra YES nếu N chia hết cho 15, ngược lại in ra NO.
+
+Sample Input 0
+
+150
+Sample Output 0
+
+YES

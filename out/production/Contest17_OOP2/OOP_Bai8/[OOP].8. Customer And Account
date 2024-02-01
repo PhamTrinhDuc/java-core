@@ -1,0 +1,62 @@
+Cho lớp Customer :
+image
+
+Lớp Account và mối quan hệ với lớp Customer :
+image
+
+Bạn được cung cấp thông tin khách hàng và tài khoản của họ, tiếp theo đó là một loạt các thao tác nạp và rút tiền. Nhiệm vụ của bạn là in ra thông tin tài khoản của khách hàng sau khi thực hiện 1 loạt các thao tác trên.
+
+Input Format
+
+Dòng 1 : ID khách hàng
+
+Dòng 2 : Tên khách hàng
+
+Dòng 3 : Giới tính (M hoặc F)
+
+Dòng 4 : ID tài khoản
+
+Dòng 5 : Số dư ban đầu
+
+Dòng 6 là N : Số lượng giao dịch nạp và rút
+
+N dòng tiếp theo có dạng : X Y trong đó X là deposit hoặc withdraw và Y là số tiền nạp rút tương ứng. Với giao dịch rút tiền, in ra thông báo như trong mẫu thiết kế lớp.
+
+Constraints
+
+1<=N<=1000
+Output Format
+
+Đối với mỗi giao dịch in ra "transaction successful" nếu việc nạp rút thành công, nếu việc rút không thành công thì in ra dòng thông báo "amount withdrawn exceeds the current balance!"
+
+Cuối cùng in ra thông tin tài khoản sau khi thực hiện N giao dịch
+
+Sample Input 0
+
+Customer ID : 28
+Full Name : Elon Musk
+Gender : M
+Account ID : 886123
+Balance : 23000.00 $
+-------------------
+6
+withdraw 8680
+withdraw 2379
+deposit 14547
+deposit 19205
+deposit 29487
+withdraw 3818
+Sample Output 0
+
+transaction successful
+transaction successful
+transaction successful
+transaction successful
+transaction successful
+transaction successful
+-------------------
+Customer ID : 28
+Full Name : Elon Musk
+Gender : M
+Account ID : 886123
+Balance : 71362.00 $

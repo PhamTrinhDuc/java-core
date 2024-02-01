@@ -1,0 +1,27 @@
+Cho ma trận A các số nguyên có N hàng và M cột.
+Tìm đường đi từ ở [1, 1] tới ô [N, M] sao cho tổng các số trên đường đi là lớn nhất có thể, biết rằng ở mỗi bước chỉ có thể đi từ ô hiện tại xuống ô phía dưới hoặc đi sang phải.
+
+Input Format
+
+Dòng đầu tiên N và M. N dòng tiếp theo mỗi dòng gồm M phần tử.
+
+Constraints
+
+1≤N,M≤100; 1≤A[i][j]≤10^9
+
+Output Format
+
+In ra đường đi có tổng lớn nhất.
+
+Sample Input 0
+
+3 3
+1 2 2
+3 10 2
+5 7 2
+Sample Output 0
+
+23
+Explanation 0
+
+Giải thích : Đường đi được chọn (1, 1) -> (2, 1) -> (2, 2) -> (3, 2) -> (3, 3)

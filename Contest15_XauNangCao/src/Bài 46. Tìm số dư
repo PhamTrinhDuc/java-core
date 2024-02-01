@@ -1,0 +1,20 @@
+Yêu cầu tính (1^n + 2^n + 3^n +4^n) % 5, trong đó n là số nguyên lớn.
+
+Input Format
+
+Số nguyên không âm n.
+
+Constraints
+
+n có không quá 1000 chữ số.
+
+Output Format
+
+In ra kết quả của bài toán
+
+Sample Input 0
+
+0
+Sample Output 0
+
+4

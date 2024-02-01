@@ -1,0 +1,31 @@
+Cho mảng A[] gồm N phần tử. Sắp xếp sao cho số có nhiều chữ số 0, 6 hoặc 8 hơn đứng trước, nếu có cùng số lượng chữ số 0 6 8 thì số nào nhỏ hơn sẽ đứng trước
+
+Input Format
+
+Dòng 1 là N : số lượng phần tử trong mảng
+
+Dòng 2 là N số trong mảng
+
+Constraints
+
+1<=N<=10^6
+
+0<=A[i]<=10^9
+
+Output Format
+
+In ra các số sau khi sắp xếp
+
+Sample Input 0
+
+14
+25556 11105 32129 8765 25187 22479 21283 5842 4471 23648 26441 28433 23517 20475
+Sample Output 0
+
+8765 23648 5842 11105 20475 21283 25187 25556 26441 28433 4471 22479 23517 32129
+Submissions: 408
+Max Score: 1
+Rate This Challenge:
+
+
+More

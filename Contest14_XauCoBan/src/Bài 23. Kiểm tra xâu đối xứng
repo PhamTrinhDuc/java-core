@@ -1,0 +1,28 @@
+Cho xâu ký tự S, bạn hãy kiểm tra xem xâu có đối xứng hay ko?
+
+Xây dựng chương trình theo khuôn mẫu sau
+
+bool palindrome(string s){
+
+}
+
+int main(){
+    string s; cin >> s;
+    cout << boolalpha << palindrome(s) << endl;
+}
+Input Format
+
+Dòng duy nhất chứa xâu s chỉ bao gồm kí tự là chữ cái
+Constraints
+
+N/A
+Output Format
+
+In ra true nếu xâu s là xâu đối xứng, ngược lại in ra false.
+
+Sample Input 0
+
+28techhcet82
+Sample Output 0
+
+true

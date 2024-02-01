@@ -1,0 +1,54 @@
+##### SET: (không lưu các phần tử trùng nhau)
+--> HashSet: các phần tử không lưu theo quy luật nào
+--> LinkedHashSet: các phần tử lưu theo thứ tự được đưa vào
+--> TreeSet: các phần tử lưu theo thứ tự tăng dần
+--> 1 số hàm thông dụng:
+  + add(): Thêm phần tử vào set
+  + remove(): Xóa phần tử khỏi set (HashSet & LinkedHashSet: O(1); TreeSet: O(Log(n))
+  + contains(): Kiểm tra sự tồn tại của 1 phần tử (HashSet & LinkedHashSet: O(1); TreeSet: O(Log(n))
+  + clear(): Xóa mọi phần tử trong set
+  + size(): Trả về số lượng phần tử trong set
+  + isEmpty(): Trả về true nếu set rỗng, ngược lại trả về false
+--> 1 số chú ý đối với TreeSet:
+  + first(): Trả về phần tử đầu tiên
+  + last(): Trả về phần tử cuối cùng
+  + pollFirst(): Xóa phần tử đầu tiên
+  + pollLast(): Xóa phần tử cuối cùng
+  + floor(x): Trả về phần tử lớn nhất <= x hoặc trả về null nếu không tồn tại
+  + ceiling(x): Trả về phần tử nhỏ nhất >=x hoặc trả về null nếu không tồn tại
+  + lower(x): Trả về phần tử lớn nhất nhỏ hơn x hoặc trả về null nếu không tồn tại
+  + higher(x): Trả về phần tử nhỏ nhất lớn hơn x hoặc trả về null nếu không tồn tại
+  + duyệt ngược TreeSet: descendingSet()
+
+
+====================================================================================================================
+
+
+##### MAP: (không lưu key trùng nhau, value có thể trùng)
+--> HashMap: không lưu (key, value) theo thứ tự nào
+--> LinkedHasMap: lưu (key, value) theo thứ tự đưa vào
+--> TreeMap: lưu theo key tăng dần
+--> 1 số hàm thông dụng:
+  + put(key, val): Thêm cặp key, value vào map
+  + get(x): Trả về value tương ứng với key x
+  + size(): Trả về kích thước của map
+  + isEmpty(): Kiểm tra map rỗng
+  + clear(): Xóa toàn bộ các phần tử trong map
+  + containsKey(x): Kiểm tra sự tồn tại của phần tử x trong tập key (HashMap & LinkedHashMap: O(1); TreeMap: O(Log(n))
+  + containsValue(x): Kiểm tra sự tồn tại của phần tử x trong tập value (HashMap & LinkedHashMap: O(1); TreeMap: O(Log(n))
+  + remove(x): Xóa cặp phần tử có key là x khỏi map (HashMap & LinkedHashMap: O(1); TreeMap: O(Log(n))
+  + replace(x, y): Thay thế cặp phần tử (x, y)
+
+--> 1 số chú ý với TreeMap:
+  + duyệt map:
+        Set<Map.Entry<Integer, Integer>> entrySet = map.entrySet(); // duyet xuoi
+        Set<Map.Entry<Integer, Integer>> entrySet = map.descendingMap().entrySet(); // duyet nguoc
+        for(Map.Entry<Integer, Integer> entry: entrySet){}
+  + firstKey(): Trả về key đầu tiên trong map
+  + lastKey(): Trả về key cuối cùng trong map
+  + firstEntry(): Trả về cặp phần tử đầu tiên trong map
+  + lastEntry(): Trả về cặp phần tử cuối cùng trong map
+  + floorKey(x): Trả về key lớn nhất nhỏ hơn hoặc bằng x
+  + floorEntry(x): Trả về cặp phần tử có key lớn nhất nhỏ hơn hoặc bằng x
+  + ceilingKey(x): Trả về key nhỏ nhất lớn hơn hoặc bằng x
+  + ceilingEntry(x): Trả về cặp phần tử có key nhỏ nhất lơn hơn hoặc bằng x

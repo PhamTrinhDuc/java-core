@@ -1,0 +1,26 @@
+Cho xâu kí tự S, bạn hãy tìm kí tự được lặp lại đầu tiên trong xâu S. Nếu xâu S không có kí tự bị lặp lại thì in ra NONE
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10000
+
+Output Format
+
+In ra kí tự lặp lại đầu tiên hoặc NONE
+
+Sample Input 0
+
+5nLQokt1QgU7
+Sample Output 0
+
+Q
+Sample Input 1
+
+28tech
+Sample Output 1
+
+NONE

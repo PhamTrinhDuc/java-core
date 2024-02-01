@@ -1,0 +1,20 @@
+Cho số nhị phân N, hãy kiểm tra xem N có chia hết cho 5 hay không.
+
+Input Format
+
+Số N ở dạng nhị phân
+
+Constraints
+
+N có không quá 1000 bit.
+
+Output Format
+
+In ra YES nếu N chia hết cho 5, ngược lại in ra NO.
+
+Sample Input 0
+
+1010
+Sample Output 0
+
+YES

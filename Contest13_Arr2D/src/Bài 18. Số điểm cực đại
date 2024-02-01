@@ -1,0 +1,43 @@
+Cho ma trận A các số nguyên có N hàng và M cột.
+Điểm được coi là cực đại trong ma trận nếu nó lớn hơn tất các số ở các số ở ô xung quanh mà chung đỉnh với nó.
+Hãy đếm xem trong ma trận có bao nhiêu điểm cực đại.
+
+Input Format
+
+Dòng đầu tiên N và M. N dòng tiếp theo mỗi dòng gồm M phần tử.
+
+Constraints
+
+1≤N,M≤100; 1≤A[i][j]≤10^9
+
+Output Format
+
+In ra số lượng các điểm cực đại của ma trận.
+
+Sample Input 0
+
+5 3
+1 1 2
+1 1 1
+1 1 2
+2 2 1
+2 1 2
+Sample Output 0
+
+1
+Explanation 0
+
+Có 1 điểm cực đại là điểm (1, 3)
+
+Sample Input 1
+
+3 3
+1 2 1
+1 5 1
+1 0 3
+Sample Output 1
+
+1
+Explanation 1
+
+Có 1 điểm cực đại là (2, 2)

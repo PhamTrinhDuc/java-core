@@ -1,0 +1,21 @@
+Cho xâu kí tự S, tiến hành sắp xếp kí tự trong xâu S theo thứ tự tăng dần, giảm dần theo thứ tự từ điển rồi in ra màn hình.
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=1000; S chỉ chứa kí tự là chữ cái hoặc chữ số.
+
+Output Format
+
+Dòng 1 in ra xâu S sau khi sắp tăng dần; Dòng 2 in ra xâu S sau khi sắp giảm dần;
+
+Sample Input 0
+
+wFJvCFumWtOt7U
+Sample Output 0
+
+7CFFJOUWmttuvw
+wvuttmWUOJFFC7

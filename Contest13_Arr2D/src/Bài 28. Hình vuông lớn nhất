@@ -1,0 +1,28 @@
+Cho mảng 2 chiều A gồm N hàng và N cột, hãy xét tất cả các hình vuông con cỡ 3x3 của mảng A, hãy tìm hình vuông có có tổng lớn nhất đó.
+
+Input Format
+
+Dòng 1 là N
+
+N dòng tiếp theo mỗi dòng gồm N số
+
+Constraints
+
+3<=N<=100
+100<=A[i][j]<=100
+Output Format
+
+In ra tổng lớn nhất của hình vuông cỡ 3x3
+
+Sample Input 0
+
+6
+4 6 4 5 8 2
+8 0 9 0 1 4
+3 5 3 6 3 4
+5 7 0 9 5 9
+4 5 5 9 6 3
+9 2 3 6 1 8
+Sample Output 0
+
+56

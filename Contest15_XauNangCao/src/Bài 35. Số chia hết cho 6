@@ -1,0 +1,20 @@
+Kiểm tra một số nguyên N có phải là số chia hết cho 6 hay không? Số chia hết cho 6 nếu nó chia hết cho cả 2 và 3.
+
+Input Format
+
+Số nguyên dương N.
+
+Constraints
+
+N có không quá 1000 chữ số.
+
+Output Format
+
+In YES nếu N là số chia hết cho 6, ngược lại in NO.
+
+Sample Input 0
+
+360
+Sample Output 0
+
+YES

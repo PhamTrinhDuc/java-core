@@ -1,0 +1,32 @@
+Cho mảng A[] gồm N điểm trong hệ tọa độ Oxy, hãy sắp xếp các điểm này theo khoảng cách về gốc tọa độ tăng dần, nếu 2 điểm có cùng khoảng cách tới gốc tọa độ thì in ra theo hoành độ tăng dần, nếu tiếp tục 2 điểm này có cùng hoành độ thì in ra theo thứ tự tung độ tăng dần.
+
+Input Format
+
+Dòng đầu tiên là N : số lượng điểm
+
+N dòng tiếp theo mỗi dòng là 2 số nguyên x, y tương ứng với hoành độ và tung độ
+
+Constraints
+
+1<=N<=10^5;
+-1000<=x,y<=1000;
+Output Format
+
+In ra các điểm sau khi sắp xếp
+
+Sample Input 0
+
+13
+-42 -76
+47 43
+12 7
+-62 31
+7 64
+42 -92
+-89 60
+45 41
+3 54
+-41 40
+20 -24
+88 42
+0 12

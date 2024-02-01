@@ -1,0 +1,27 @@
+Viết chương trình khai báo lớp Phân số gồm hai thuộc tính private là tử số và mẫu số.
+Sau đó thực hiện nhập vào một phân số và in ra phân số đó ở dạng tối giản.
+
+Input Format
+
+Có hai số nguyên dương lần lượt là tử số và mẫu số.
+
+Constraints
+
+Các giá trị đều nguyên dương và không quá 18 chữ số.
+
+Output Format
+
+Ghi ra phân số tối giản;
+
+Sample Input 0
+
+334 37
+Sample Output 0
+
+334/37
+Sample Input 1
+
+312 945
+Sample Output 1
+
+104/315

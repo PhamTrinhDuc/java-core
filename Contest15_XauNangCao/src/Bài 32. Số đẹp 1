@@ -1,0 +1,20 @@
+Một số được coi là số đẹp nếu nó có tất cả các chữ số là số nguyên tố và tổng các chữ số của nó cũng là số nguyên tố. Hãy viết chương trình kiểm tra số nguyên dương N cho trước có phải là số đẹp hay không?
+
+Input Format
+
+Số nguyên dương N
+
+Constraints
+
+N có không quá 1000 chữ số.
+
+Output Format
+
+In ra YES nếu N là số đẹp, ngược lại in ra NO.
+
+Sample Input 0
+
+373
+Sample Output 0
+
+YES

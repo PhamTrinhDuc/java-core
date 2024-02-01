@@ -1,0 +1,25 @@
+Cho 2 xâu kí tự S và T. Hãy liệt kê các từ xuất hiện ở cả 2 xâu mà không phân biệt hoa thường, mỗi từ được liệt kê một lần theo thứ tự từ điển tăng dần. Gợi ý : Chuyển hết các kí tự S, T về in thường rồi xét từ.
+
+Cách 1 : Dùng 2 cái set, set1 lưu các từ khác nhau trong S, set2 lưu các từ khác nhau trong T. Sau đó duyệt set1 và kiểm tra sự tồn tại của từ trong set2, nếu có thì in ra
+
+Cách 2 : Dùng map, đánh dấu các từ trong S = 1, sau đó duyệt từ trong T và kiểm tra nếu đã được đánh dấu là 1, thì đánh dấu thành 2. Cuối cùng in ra các từ trong map được đánh dấu là 2.
+
+Input Format
+
+Dòng đầu tiên chứa xâu S. Dòng thứ hai chứa xâu T.
+
+Constraints
+
+1≤len(S)≤10000; 1≤len(T)≤10000; Xâu S và T chỉ bao gồm chữ cái và dấu cách.
+
+Output Format
+
+In ra các từ xuất hiện ở cả 2 xâu theo thứ tự từ điển tăng dần, mỗi từ được liệt kê 1 lần và in ra ở dạng chữ in thường.
+
+Sample Input 0
+
+abc abc abcd abcd AB
+abC CD ZAH abd ABcD
+Sample Output 0
+
+abc abcd

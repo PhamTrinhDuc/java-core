@@ -1,0 +1,26 @@
+Tèo là một người ghét 28tech vì cho rằng 28tech cho quá nhiều bài tập khó làm anh ta phải đau đầu. Vì thế anh ta ghét tất cả những chữ cái xuất hiện trong từ "28tech", Tèo muốn nhờ bạn xóa hết những kí tự xuất hiện trong từ "28tech" khỏi xâu kí tự S, bạn hãy giúp Tèo nhé. Nếu xâu S sau khi xóa không còn kí tự nào bạn phải in ra EMPTY
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10000
+
+Output Format
+
+In ra xâu S sau khi xóa hoặc in ra EMPTY nếu xâu S trở thành rỗng.
+
+Sample Input 0
+
+hSbc7eeh4ti8eSADte0
+Sample Output 0
+
+Sb74iSAD0
+Sample Input 1
+
+28tech28techtech28
+Sample Output 1
+
+EMPTY

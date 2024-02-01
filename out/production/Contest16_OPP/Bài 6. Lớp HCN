@@ -1,0 +1,22 @@
+Viết chương trình khai báo lớp Rectange với các thuộc tính và phương thức như sau:
+image
+Viết chương trình nhập vào giá trị độ dài hai cạnh của hình chữ nhật và màu sắc. In ra thông tin về chu vi, diện tích và màu sắc (đã đưa về dạng chuẩn trong đó ký tự đầu viết hoa, các ký tự sau viết thường) của hình chữ nhật đó.
+
+Input Format
+
+Gồm 2 số nguyên a, b là độ dài 2 cạnh hình chữ nhật và một xâu ký tự (không có khoảng trống) mô tả màu sắc.
+
+Constraints
+
+-1000<=a,b<=1000;
+
+Output Format
+
+Nếu hình chữ nhật là hợp lệ (các cạnh đều nguyên dương) thì in ra 3 thông tin: chu vi, diện tích, màu sắc, mỗi thông tin cách nhau một khoảng trống. Nếu dữ liệu không hợp lệ in ra INVALID
+
+Sample Input 0
+
+22 25 Gray
+Sample Output 0
+
+94 550 Gray

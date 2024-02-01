@@ -1,0 +1,26 @@
+import java.util.Scanner;
+import java.lang.Math;
+import java.lang.Character;
+import java.lang.String;
+import java.io.*;
+import java.util.*;
+
+public class B9 {
+    public static int[] cnt = new int[1000006];
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextInt();
+            cnt[a[i]]++;
+        }
+        for (int i = 0; i < n; i++) {
+            if (cnt[a[i]] != 0) {
+                System.out.printf("%d %d\n", a[i], cnt[a[i]]);
+                cnt[a[i]] = 0;
+            }
+        }
+    }
+}

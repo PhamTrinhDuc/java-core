@@ -1,0 +1,21 @@
+Cho xâu kí tự S và số nguyên K, bạn được yêu cầu chèn dòng chữ "28tech" vào chỉ số K của xâu S
+
+Input Format
+
+Dòng 1 chứa xâu S. Dòng 2 chứa số nguyên K.
+
+Constraints
+
+1<=len(S)<=10000; 0<=K < len(S);
+
+Output Format
+
+In ra xâu S sau khi chèn
+
+Sample Input 0
+
+ClhiSYBOSg5Re
+10
+Sample Output 0
+
+ClhiSYBOSg28tech5Re

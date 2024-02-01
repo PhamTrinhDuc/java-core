@@ -1,0 +1,22 @@
+Cho xâu ký tự S, nhiệm vụ của bạn là nén các ký tự liền kề của S lại bằng gom các kí tự liền kề giống nhau và ghi số lần xuất hiện của ký tự đó vào sau. Ví dụ S = aaabbbccccdzaa => a3b3c4d1z1a2.
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10^6
+
+S chỉ bao gồm các kí tự in thường
+
+Output Format
+
+In ra xâu được nén
+
+Sample Input 0
+
+aacducuucdcabczubduuubaaa
+Sample Output 0
+
+a2c1d1u1c1u2c1d1c1a1b1c1z1u1b1d1u3b1a3

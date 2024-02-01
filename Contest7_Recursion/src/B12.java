@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class B12 {
+    public static void transform(long n) {
+        if (n == 0) return;
+        transform(n / 16);
+        if (n%16 >= 10) System.out.print((char) (n%16 - 10 + 'A'));
+        else System.out.print(n%16);
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long n = sc.nextLong();
+        if (n==0) System.out.println(0);
+        transform(n);
+    }
+}

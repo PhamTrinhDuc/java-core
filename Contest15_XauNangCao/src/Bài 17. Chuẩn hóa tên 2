@@ -1,0 +1,21 @@
+Cho một xâu là tên người chỉ bao gồm các kí tự là chữ cái và dấu cách, giữa các từ trong câu có thể tồn tại nhiều dấu cách hãy chuẩn hóa tên người theo 2 mẫu được yêu cầu trước. Xem output để rõ hơn về cách chuẩn hóa.
+
+Input Format
+
+Dòng duy nhất là tên người.
+
+Constraints
+
+Xâu kí tự tên người có không quá 1000 kí tự;
+
+Output Format
+
+Dòng đầu tiên in ra theo mẫu chuẩn hóa 1. Dòng thứ 2 in ra theo mẫu chuẩn hóa 2.
+
+Sample Input 0
+
+tRAN   van  tECH28
+Sample Output 0
+
+Tran Van, TECH28
+TECH28, Tran Van

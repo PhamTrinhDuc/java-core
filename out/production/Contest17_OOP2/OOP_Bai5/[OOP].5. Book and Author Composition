@@ -1,0 +1,75 @@
+Xây dựng lớp Author và lớp Book theo bản thiết kế sau
+
+Lớp Author
+image
+
+Lớp Book và mối quan hệ
+image
+
+Cho thông tin cuốn sách và tác giả tương ứng, bạn hãy sắp xếp các cuốn sách và in ra theo thứ tự giá bán giảm dần, nếu cùng giá bán thì sắp xếp theo thứ tự từ điển tên sách tăng dần, khi in cần in cả thông tin tác giả.
+
+Input Format
+
+Dòng 1 là N : số lượng cuốn sách, mỗi cuốn sách gồm 6 dòng
+
+Thông tin sách gồm 3 dòng : Dòng 1 : Tên, dòng 2 : giá, dòng 3 : số lượng
+
+Thông tin tác giả của cuốn sách gồm 3 dòng : Tên, email, giới tính
+
+Constraints
+
+1<=N<=1000
+Output Format
+
+In ra thông tin của từng cuốn sách theo mẫu, giá tiền in ra số nguyên gần nhất với giá bán, xem ví dụ mẫu để rõ hơn
+
+Sample Input 0
+
+3
+Song
+800000
+5000
+Xuan Quynh
+xuanquynh@gmail.com
+M
+Ha Do
+400000
+6000
+Nguyen Nhat Anh
+nhatanh@gmail.com
+M
+To Kill a Mockingbird
+100000
+15000
+Harper Lee
+lee@gmail.com
+F
+Sample Output 0
+
+Book Details :
+Song
+800000
+5000
+Author Information :
+Xuan Quynh
+xuanquynh@gmail.com
+M
+--------------------
+Book Details :
+Ha Do
+400000
+6000
+Author Information :
+Nguyen Nhat Anh
+nhatanh@gmail.com
+M
+--------------------
+Book Details :
+To Kill a Mockingbird
+100000
+15000
+Author Information :
+Harper Lee
+lee@gmail.com
+F
+--------------------

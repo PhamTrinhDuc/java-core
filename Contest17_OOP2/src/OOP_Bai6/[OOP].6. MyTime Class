@@ -1,0 +1,36 @@
+Cho thiết kế lớp MyTime như sau :
+
+image
+
+Cho thông tin thời gian hiện tại, bạn hãy sử dụng 6 hàm đã xây dựng trong lớp MyTime để in ra :
+
+Thời gian kế tiếp sau thời gian hiện tại 1s, 1 phút, 1 giờ
+
+Thời gian trước thời gian hiện tại 1s, 1 phút, 1 giờ
+
+Input Format
+
+Dòng duy nhất mô tả thời gian dạng : hh:mm:ss
+Constraints
+
+0<=hh<=23
+
+0<=mm<=59
+
+0<=ss<=59
+
+Output Format
+
+In ra lần lượt 6 dòng thời gian kết quả định dạng : hh:mm:ss
+
+Sample Input 0
+
+23:00:37
+Sample Output 0
+
+23:00:38
+23:01:37
+00:00:37
+23:00:36
+22:59:37
+22:00:37

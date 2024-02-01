@@ -1,0 +1,24 @@
+Cho ma trận vuông A[N][N]. Hãy in ra các số xuất hiện ở mọi hàng theo thứ tự từ bé đến lớn, mỗi giá trị xuất hiện chỉ liệt kê 1 lần.
+
+Input Format
+
+Dòng đầu tiên đưa vào N là cấp của ma trận A[N][N]; N dòng tiếp mỗi dòng gồm N số nguyên.
+
+Constraints
+
+1≤N≤100; 0≤A[i][j]≤100
+
+Output Format
+
+In ra các giá trị xuất hiện trên mọi dòng của ma trận, các số in cách nhau một dấu cách. Nếu không tồn tại giá trị nào thỏa mãn in ra "NOT FOUND".
+
+Sample Input 0
+
+4
+1 2 2 3
+2 1 2 4
+1 4 5 2
+2 2 3 1
+Sample Output 0
+
+1 2

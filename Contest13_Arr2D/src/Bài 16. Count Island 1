@@ -1,0 +1,39 @@
+Cho ma trận nhị phân gồm N hàng và M cột chỉ bao gồm các số 0 và 1.
+Hãy đếm số lượng miền các số 1 trong ma trận, các ô số 1 được coi là cùng miền nếu chúng có chung cạnh.
+
+Input Format
+
+Dòng đầu tiên N và M. N dòng tiếp theo mỗi dòng gồm M phần tử.
+
+Constraints
+
+1≤N,M≤50.
+
+Output Format
+
+In ra số lượng miền số 1 trong ma trận.
+
+Sample Input 0
+
+4 7
+0 1 1 0 1 1 0
+1 1 1 1 1 1 1
+1 0 0 0 0 1 1
+1 1 0 1 0 0 0
+Sample Output 0
+
+2
+Sample Input 1
+
+8 8
+1 1 0 1 1 1 1 0
+0 1 1 1 0 0 0 1
+1 1 0 0 0 0 1 1
+0 1 0 1 0 0 1 1
+1 0 0 1 0 0 0 1
+0 1 0 1 1 1 1 0
+0 0 0 0 1 0 1 1
+1 0 0 0 0 0 0 0
+Sample Output 1
+
+6

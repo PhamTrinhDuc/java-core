@@ -1,0 +1,36 @@
+Cho mảng char A[] gồm N kí tự, bạn hãy ghép các ký tự trong mảng này thành 1 string. Xây dựng chương trình theo khuôn mẫu hàm như sau
+
+string array_to_string(char a[], int n){
+    //code here
+}
+
+int main(){
+    int n;
+    char a[10001];
+    cin >> n;
+    for(int i = 0; i < n; i++) cin >> a[i];
+    cout << array_to_string(a, n) << endl;
+}
+Input Format
+
+Dòng 1 là N : số lượng ký tự trong xâu
+
+Dòng 2 gồm N kí tự viết cách nhau 1 dấu cách
+
+Constraints
+
+1 <= N <= 10000
+
+Các ký tự trong mảng A[] là chữ cái in thường hoặc chữ số
+
+Output Format
+
+In ra chuỗi ký tự kết quả
+
+Sample Input 0
+
+6
+2 8 t e c h
+Sample Output 0
+
+28tech

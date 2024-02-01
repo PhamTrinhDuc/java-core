@@ -1,0 +1,57 @@
+Một cửa hàng bán oto, xe máy cần quản lý các loại xe máy và xe ô tô.
+Trong đó xe máy có những thông tin : mã xe, tên xe, hãng, màu sắc, tốc độ tối đa, giá bán. Xe ô tô có những thông tin : mã xe, tên xe, hãng, màu sắc, mã lực, giá bán.
+Nhập danh sách các phương tiện và tiến hành liệt kê các xe có tên tìm kiếm theo thứ tự xuất hiện trong danh sách.
+Biết rằng xe máy có mã bắt đầu bằng XM (ví dụ XM001), và ô tô có mã bắt đầu bằng OTO (ví dụ OTO521)
+
+
+Input Format
+
+Dòng đầu tiên chứa N : số lượng phương tiện. Các dòng tiếp theo mô tả phương tiện, nếu là xe máy thì gồm 6 dòng : mã xe, tên xe, hãng, màu sắc, tốc độ tối đa, giá bán, nếu là ô tô thì gồm 6 dòng : mã xe, tên xe, hãng, màu sắc, mã lực, giá bán. Dòng cuối cùng là tên xe cần tìm kiếm.
+
+Constraints
+
+1<=N<=1000;
+
+Output Format
+
+In ra các phương tiện có tên tìm kiếm. Đầu tiên liệt kê các xe oto sau đó liệt kê các xe máy. Các thông tin của phương tiện được in cách nhau một dấu cách
+
+Sample Input 0
+
+5
+OTO1
+HONDAT5
+HONDA
+Vang
+186
+850
+XM2
+HON112
+HONDA
+Xanh
+200
+40
+XM3
+HON112
+HONDA
+Vang
+180
+100
+OTO4
+TOY555
+TOYOTA
+Vang
+150
+2400
+XM5
+Ex
+YAMAHA
+Trang
+220
+28
+TOY555
+Sample Output 0
+
+DANH SACH OTO :
+OTO4 TOY555 TOYOTA Vang 150 2400
+DANH SACH XE MAY :

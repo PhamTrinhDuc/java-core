@@ -1,0 +1,25 @@
+Cho mảng A[] gồm N phần tử. Sắp xếp sao cho số nào có nhiều số lẻ hơn thì đứng trước, trong trường hợp nhiều số có cùng chữ số lẻ thì số nào nhỏ hơn sẽ đứng trước
+
+Input Format
+
+Dòng 1 là N : số lượng phần tử trong mảng
+
+Dòng 2 là N số trong mảng
+
+Constraints
+
+1<=N<=10^6
+
+0<=A[i]<=10^9
+
+Output Format
+
+In ra các số sau khi sắp xếp
+
+Sample Input 0
+
+11
+4456 10493 23600 32757 6911 15236 14074 22458 32132 28596 15209
+Sample Output 0
+
+32757 6911 10493 15209 15236 32132 14074 28596 4456 22458 23600

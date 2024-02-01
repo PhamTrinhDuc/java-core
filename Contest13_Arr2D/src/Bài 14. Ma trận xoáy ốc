@@ -1,0 +1,22 @@
+Xây dựng ma trận xoáy ốc cấp N
+
+Input Format
+
+Số nguyên dương N là cấp của ma trận xoáy ốc cần xây dựng.
+
+Constraints
+
+1≤N≤100
+
+Output Format
+
+In ra ma trận xoáy ốc.
+
+Sample Input 0
+
+3
+Sample Output 0
+
+1 2 3
+8 9 4
+7 6 5

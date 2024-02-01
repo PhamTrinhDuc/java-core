@@ -1,0 +1,20 @@
+Cho xâu kí tự S gồm các từ được phân cách nhau bởi một vài dấu cách. Hãy tách ra các từ thuận nghịch trong xâu và sắp xếp theo thứ tự từ điển tăng dần.
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10000; S chứa kí tự là chữ cái, chữ số và dấu cách.
+
+Output Format
+
+In ra các từ thuận nghịch sau khi sắp xếp
+
+Sample Input 0
+
+IAzbbzAI   ocoS iIA ccAAAAAAcc izzbb   aoI iIiAWWAiIi
+Sample Output 0
+
+IAzbbzAI ccAAAAAAcc iIiAWWAiIi

@@ -1,0 +1,22 @@
+In ra ma trận xoáy ốc cấp N, với các số trong ma trận đều là các số trong dãy Fibonacci.
+
+Input Format
+
+Số nguyên dương N
+
+Constraints
+
+1≤N≤9
+
+Output Format
+
+Ma trận xoáy ốc cấp N
+
+Sample Input 0
+
+3
+Sample Output 0
+
+0 1 1 
+13 21 2 
+8 5 3 

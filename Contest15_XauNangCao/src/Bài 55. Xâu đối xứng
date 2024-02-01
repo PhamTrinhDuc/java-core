@@ -1,0 +1,43 @@
+Cho xâu ký tự S, bạn hãy kiểm tra xem mình có thể sắp xếp lại các ký tự trong xâu sao cho xâu S trở thành xâu đối xứng hay không? Ví dụ S = "zaabcczb" có thể sắp xếp lại thành "zabccbaz" và trở thành xâu đối xứng.
+
+Input Format
+
+Dòng 1 là số bộ test T
+
+T dòng tiếp theo mỗi dòng là xâu S
+
+Constraints
+
+1<=T<=1000
+
+Xâu S chỉ bao gồm ký tự in thường và có độ dài không quá 10^6
+
+Output Format
+
+Đối với mỗi test case in ra YES hoặc NO
+
+Sample Input 0
+
+10
+zzcdbaca
+bzzab
+bbddadz
+zzcabzc
+cdzzda
+dccdzzdd
+bdzcda
+aabbaa
+aadada
+cbacz
+Sample Output 0
+
+NO
+YES
+NO
+NO
+NO
+YES
+NO
+YES
+YES
+NO

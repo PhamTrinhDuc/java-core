@@ -1,0 +1,21 @@
+Cho số nguyên không âm N, hãy tính tổng các chữ số chẵn, tổng các chữ số lẻ của N.
+
+Input Format
+
+Số nguyên không âm N.
+
+Constraints
+
+0≤n≤10^18
+
+Output Format
+
+Dòng đầu tiên in ra tổng các chữ số chẵn. Dòng thứ 2 in ra tổng các chữ số lẻ.
+
+Sample Input 0
+
+123456
+Sample Output 0
+
+12
+9

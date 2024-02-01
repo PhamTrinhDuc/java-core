@@ -1,0 +1,20 @@
+Cho ngày sinh của một người theo dạng ngày/tháng/năm. Bạn hãy chuẩn hóa ngày sinh này về dạng dd/mm/yyyy. Ví dụ nếu ngày sinh là 1/10/2002 thì được chuẩn hóa thành 01/10/2002, hoặc 5/2/2002 thì được chuẩn hóa thành 05/02/2002.
+
+Input Format
+
+Dòng duy nhất chứa 1 xâu mô tả ngày sinh
+
+Constraints
+
+Các phần ngày, tháng, năm được phân cách nhau bởi dấu /, năm là số có 4 chữ số.
+
+Output Format
+
+In ra ngày sinh sau khi chuẩn hóa
+
+Sample Input 0
+
+18/5/2002
+Sample Output 0
+
+18/05/2002

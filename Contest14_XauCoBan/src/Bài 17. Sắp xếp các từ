@@ -1,0 +1,21 @@
+Cho xâu kí tự S gồm các từ được phân cách nhau bởi một vài dấu cách. Thực hiện sắp xếp các từ trong xâu theo thứ tự từ điển tăng dần và giảm dần.
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10000; S chứa kí tự là chữ cái, chữ số và dấu cách.
+
+Output Format
+
+Dòng 1 in ra các từ theo thứ tự từ điển tăng dần. Dòng 2 in ra các từ theo thứ tự từ điển giảm dần.
+
+Sample Input 0
+
+8WNH8   ajw zzu ymlr krXih   Ts0K4 5Zd mcx9
+Sample Output 0
+
+5Zd 8WNH8 Ts0K4 ajw krXih mcx9 ymlr zzu
+zzu ymlr mcx9 krXih ajw Ts0K4 8WNH8 5Zd

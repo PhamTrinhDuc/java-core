@@ -1,0 +1,37 @@
+Tèo khá thích chơi cờ vua và quân cờ mà Tèo yêu thích chính là quân Xe, bây giờ Tèo có một bàn cờ cỡ NxN, trên bàn cờ sẽ có những ô trống và có những ô có vật cản, nhiệm vụ của bạn là hãy xác định xem số lượng ô trên bàn cờ mà quân Xe có thể di chuyển tới, biết rằng nó có thể đi qua đi lại 1 ô trống nhiều lần và không thể đi vào ô có vật cản.
+
+Bàn cờ gồm N hàng N cột, mỗi ô là số 1 tương ứng với vật cản và ô số 0 tương ứng với ô trống. Ban đầu quân Xe nằm ở vị trí hàng S và cột T và ô (S, T) là ô trống
+
+Input Format
+
+Dòng 1 là N, S, T
+
+N dòng tiếp theo mỗi dòng gồm N số
+
+Constraints
+
+5<=N<=20
+
+0<=A[i][j]<=1
+
+Output Format
+
+In ra số lượng ô trên bàn cờ mà quân Xe có thể đến được
+
+Sample Input 0
+
+7 4 6
+1 1 1 0 0 1 0
+1 1 0 0 0 1 1
+0 1 0 0 0 0 0
+1 0 1 0 1 0 1
+1 0 1 1 1 1 0
+1 1 0 0 1 0 1
+0 0 0 0 1 1 0
+Sample Output 0
+
+12
+Explanation 0
+
+Những ô quân Xe có thể đi tới : 4 6, 3 6, 3 5, 2 5, 1 5, 1 4, 2 4, 3 4, 4 4, 3 3, 2 3, 3 7
+

@@ -1,0 +1,20 @@
+Cho một xâu S gồm nhiều từ, các từ được phân cách nhau bởi dấu cách hoặc các dấu '.', ',', '!', '?', hãy liệt kê các từ xuất hiện trong xâu, giữa các từ cách nhau một dấu cách, sau từ cuối cùng ko được in thừa dấu cách
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10000; S chỉ bao gồm các chữ cái, dấu cách và các dấu câu đã liệt kê ở trên.
+
+Output Format
+
+Liệt kê các từ trong xâu
+
+Sample Input 0
+
+oSAz ?oiiaz iSaSz SDA ,bbW oWA AIIia .
+Sample Output 0
+
+oSAz oiiaz iSaSz SDA bbW oWA AIIia

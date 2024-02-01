@@ -1,0 +1,13 @@
+Cho 2 mảng đã được sắp xếp tăng dần, thực hiện trộn 2 dãy trên thành một dãy được sắp xếp.
+
+Input Format
+
+Dòng đầu tiên là số lượng phần tử của 2 dãy n và m Dòng thứ 2 là n phần tử trong dãy số 1. Dòng thứ 3 là m phần tử trong dãy thứ 2.
+
+Constraints
+
+1≤n,m≤10^7; 1≤ai≤10^9
+
+Output Format
+
+In ra mảng sau khi trộn

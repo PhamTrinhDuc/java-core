@@ -1,0 +1,26 @@
+Cho mảng A[], B[] gồm N và M phần tử, nhiệm vụ của bạn là với mỗi phần tử trong mảng A[] bạn hãy chỉ ra có bao nhiêu phần tử trong mảng B[] lớn hơn hoặc bằng nó.
+
+Gợi ý : Sort mảng B[] rồi dùng binary_search biến đổi hoặc lower_bound, upper_bound.
+
+Input Format
+
+Dòng 1 là N và M, dòng 2 là mảng A[], dòng 3 là mảng B[]
+
+Constraints
+
+1<=N,M<=10^6
+
+0<=A[i],B[i]<=10^9
+
+Output Format
+
+In ra kết quả của bài toán
+
+Sample Input 0
+
+11 9
+8 1 5 9 6 7 4 0 8 6 2
+8 4 0 4 8 6 2 8 5
+Sample Output 0
+
+3 8 5 0 4 3 7 9 3 4 8

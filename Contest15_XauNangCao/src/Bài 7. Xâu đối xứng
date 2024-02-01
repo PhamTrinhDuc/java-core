@@ -1,0 +1,20 @@
+Cho một xâu ký tự S chỉ bao gồm các chữ cái, hãy kiểm tra xem xâu nhập vào có phải là xâu đối xứng hay không?
+
+Input Format
+
+Dòng duy nhất là xâu S
+
+Constraints
+
+1≤len(S)≤100000;
+
+Output Format
+
+In ra YES nếu S đối xứng, ngược lại in NO.
+
+Sample Input 0
+
+cBGkXXqKWqqWKqXXkGBc
+Sample Output 0
+
+YES

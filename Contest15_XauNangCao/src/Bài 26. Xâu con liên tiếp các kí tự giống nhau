@@ -1,0 +1,21 @@
+Cho một xâu kí tự S chỉ bao gồm các chữ cái in thường
+Hãy tìm xâu con liên tiếp chứa các kí tự giống nhau dài nhất, nếu có nhiều xâu con thỏa mãn thì chọn xâu con có thứ tự từ điển lớn nhất.
+
+Input Format
+
+Một dòng duy nhất chứa xâu S.
+
+Constraints
+
+1≤len(S)≤100000;
+
+Output Format
+
+In ra xâu con tìm được.
+
+Sample Input 0
+
+zzaabc
+Sample Output 0
+
+zz

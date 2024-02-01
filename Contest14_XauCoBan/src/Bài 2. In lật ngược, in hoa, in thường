@@ -1,0 +1,23 @@
+Cho xâu kí tự S có không quá 10000 kí tự, S bao gồm kí tự in hoa, in thường, chữ số và kí tự đặc biệt.
+Hãy tự viết 3 hàm lật ngược xâu, viết hoa và viết thường xâu kí tự
+
+Input Format
+
+Dòng duy nhất chứa xâu S
+
+Constraints
+
+1<=len(S)<=10000
+
+Output Format
+
+Dòng 1 in ra xâu S lật ngược. Dòng 2 in ra xâu S ở dạng in thường. Dòng 3 in ra xâu S ở dạng in hoa.
+
+Sample Input 0
+
+hjweXafgbDeGxEa
+Sample Output 0
+
+aExGeDbgfaXewjh
+hjwexafgbdegxea
+HJWEXAFGBDEGXEA
